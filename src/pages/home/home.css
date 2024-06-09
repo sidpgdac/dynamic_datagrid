@@ -1,0 +1,64 @@
+/* src/App.css */
+
+.App {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0; /* Light gray background */
+  color: #333; /* Dark gray text color */
+  padding: 20px;
+}
+
+h1 {
+  color: #007bff; /* Blue color */
+}
+
+/* Styling for DatasourceDropdown */
+.dx-dropdownbox {
+  width: 300px;
+}
+
+/* Styling for DatasourceGrid */
+.datasource-grid-container {
+  margin-top: 20px;
+  background-color: #fff; /* White background */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  overflow: hidden; /* Hide overflow content */
+}
+
+.datasource-grid .dx-datagrid-header-panel {
+  background-color: #343a40; /* Dark gray */
+  color: white;
+  border-bottom: 1px solid #2c3136; /* Darker gray border */
+}
+
+.datasource-grid .dx-datagrid-rowsview {
+  background-color: #f8f9fa; /* Light gray */
+}
+
+.datasource-grid .dx-datagrid-header-panel .dx-toolbar-button {
+  color: white;
+}
+
+.datasource-grid .dx-datagrid-header-panel .dx-toolbar-button:hover {
+  background-color: #5a6269; /* Slightly lighter gray */
+}
+
+.loading,
+.error {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px; /* Add padding */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.loading {
+  background-color: #007bff; /* Blue background */
+  color: #fff; /* White text color */
+}
+
+.error {
+  background-color: #dc3545; /* Red background */
+  color: #fff; /* White text color */
+}
